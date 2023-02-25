@@ -1,0 +1,35 @@
+apply plugin: 'java'
+apply plugin: 'maven-publish'
+
+group 'com.github.MeiNanziiii'
+version 'v0.55'
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src'
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation 'com.badlogicgames.gdx:gdx-tools:1.11.0'
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            from components.java
+        }
+    }
+}
+
+wrapper {
+    gradleVersion = "7.5.1"
+    distributionType = Wrapper.DistributionType.ALL
+}
