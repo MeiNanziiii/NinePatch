@@ -1455,7 +1455,7 @@ public interface Items {
         notStackable = true;
     }});
 
-    default String getId(Item item) {
+    static String getId(Item item) {
         return item.id;
     }
 }
