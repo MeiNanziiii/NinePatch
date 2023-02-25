@@ -14,15 +14,14 @@
     <br/>
     Adding dependence and jitpack to Gradle:
 
-    allprojects {
-		repositories {
-			maven { url 'https://jitpack.io' }
-		}
-	}
+    repositories {
+    	mavenCentral()
+    	maven { url 'https://jitpack.io' }
+    }
 
     dependencies {
-	    implementation 'com.github.MeiNanziiii:NinePatch:0.55'
-	}
+		implementation 'com.github.MeiNanziiii:NinePatch:0.55'
+    }
 </p>
 <h1>
     <img src="cat.png" width=64> Contributors
