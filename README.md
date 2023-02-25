@@ -12,7 +12,7 @@
     To get started, you will need add to Gradle dependencies NinePatch mod API. Once you have done this, you can start creating your own <ins>custom items</ins>. You can do this by using the API built-in tools to define your item's properties, such as its name and sprite for this moment. For fast start you can use example template from GitHub.
     <br/>
     <br/>
-    Adding dependence and jitpack to Gradle (-SNAPSHOT means latest):
+    Adding dependence and jitpack to Gradle:
 
     allprojects {
 		repositories {
@@ -21,7 +21,7 @@
 	}
 
     dependencies {
-	    implementation 'com.github.MeiNanziiii:NinePatch:v0.55'
+	    implementation 'com.github.MeiNanziiii:NinePatch:0.55'
 	}
 </p>
 <h1>
