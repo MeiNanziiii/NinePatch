@@ -21,7 +21,7 @@
 	}
 
     dependencies {
-	    implementation 'com.github.MeiNanziiii:NinePatch:v0.55'
+	    implementation 'com.github.MeiNanziiii:NinePatch:0.55.1'
 	}
 </p>
 <h1>
